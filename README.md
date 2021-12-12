@@ -2,9 +2,9 @@
 ## Bahasa Pemrograman { Tugas Pertemuan ke 11 }
 
 ### FLOWCHART :
-  - ![img]()
+  - ![img](https://github.com/raissaputra/praktikum-11/blob/main/assets/flowchart.png)
   
-### OUTPUT PROGRAM :
+### OUTPUT PROGRAM `fungsiNilai.py`:
   - Tampilan Awal Program
   - ![img](https://github.com/raissaputra/praktikum-11/blob/main/assets/awalMenu.png)
   - Pilih 1 ==> Tambah data :
@@ -23,8 +23,28 @@
 
 ### PENJELASAN :
   - Program Nilai sederhana dengan CRUD (create, read, update, delete) memakai fungsi
-  - Selama looping bernilai True maka program akan berjalan terus
+  - Selama looping bernilai True maka program akan berjalan terus, berikut kode nya:
+  - ```
+    if __name__ == "__main__":
+        while(True):
+            menu_nilai()
+    ```
   - Inputan dari User akan di append() ke variabel global yang sudah di buat
-  - Untuk ubah data dengan parameter nama sebagai indeks nya
-  - Untuk hapus data dengan memakai parameter nama sebagai indeks nya
+  - Untuk ubah data dengan parameter nama sebagai indeks nya, berikut kode nya :
+  - ```
+    i = int(input('Inputkan ID Nama : '))
+    if (i > len(nama[i])):
+        print('ID Salah')
+    else:
+        nama_baru = input('Nama Baru : ')
+        nama[i] = nama_baru
+    ```
+  - Untuk hapus data dengan memakai parameter nama sebagai indeks nya, berikut kode nya :
+  - ```
+    i = int(input('Masukkan ID Mahasiswa: '))
+    if (i > len(nama[i])):
+        print('ID Salah')
+    else:
+        nama.remove(nama[i])
+    ```
   - Perhitungan nilai akhir ( tugas*(30/100), uts*(35/100), uas*(35/100) )
