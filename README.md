@@ -1,5 +1,6 @@
 # praktikum-11
 ## Bahasa Pemrograman { Tugas Pertemuan ke 11 }
+###  Program sederhana dengan mengaplikasikan penggunaan fungsi yang akan menampilkan daftar nilai mahasiswa
 
 ### FLOWCHART :
   - ![img](https://github.com/raissaputra/praktikum-11/blob/main/assets/flowchart.png)
